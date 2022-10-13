@@ -1,8 +1,13 @@
 <?php
-    include('../conexion.php');
+    /**
+ *   @author     Jordi Domenech
+ *   @date       2022
+ *   @brief      index.php
+ *   @pre        Lee el README
+ */
+    include('../../API/src/conexion.php');
 
 ?>
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -14,7 +19,10 @@
         <h2>Los datos son</h2>
 
         <?php
-            include('../mostrarDato.php');
+        /**
+         * @brief llamamos a la funcion mostrarDato.php
+         */
+            include('../../API/src/mostrarDato.php');
         ?>
     <body>
   
